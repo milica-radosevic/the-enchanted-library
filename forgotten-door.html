@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Behind the Forgotten Door | The Enchanted Library</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="forgotten-page">
+
+    <!-- Header -->
+    <header>
+        <h1>Behind the Forgotten Door</h1>
+        <p>A mysterious story waiting to be discovered.</p>
+    </header>
+
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="index.html"
+           class="back-button"
+           aria-label="Go back"
+           onclick="if (history.length > 1) { history.back(); return false; }">
+            &larr;
+        </a>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+        <a href="cart.html">Cart</a>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main class="book-details">
+
+        <!-- Book Description -->
+        <section class="book-info book-description">
+
+            <h2>About the Book</h2>
+
+            <p>
+                Behind an old wooden door lies a mysterious garden filled
+                with forgotten secrets, magical plants and stories waiting
+                to be discovered.
+            </p>
+
+            <p>
+                When Alice finds the forgotten door hidden beneath the
+                ivy-covered walls of an abandoned house, she steps into
+                a world untouched by time. Strange flowers bloom beneath
+                the moonlight, forgotten paths lead deeper into the garden,
+                and every corner seems to hide a story of its own.
+            </p>
+
+            <p>
+                But the garden is not as peaceful as it first appears.
+                The deeper Alice ventures, the more she begins to wonder
+                why the door was forgotten — and who is waiting on the
+                other side.
+            </p>
+
+        </section>
+
+
+        <!-- Book Cover and Purchase Button -->
+        <section class="book-cover">
+
+            <img
+                src="images/gardenknjiga_dobra.jpg"
+                alt="Behind the Forgotten Door book cover"
+            >
+
+            <p class="price">12€</p>
+
+            <button type="button" class="add-to-cart-button">
+                Add to Cart
+            </button>
+
+        </section>
+
+
+        <!-- Author Information -->
+        <section class="book-info about-author">
+
+            <h2>About the Author</h2>
+
+            <h3>Elara Moon</h3>
+
+            <p>
+                Elara Moon is a fantasy writer known for creating
+                mysterious worlds filled with forgotten places, magic
+                and hidden stories.
+            </p>
+
+            <p>
+                Inspired by old gardens, forgotten houses and stories
+                whispered beneath the moonlight, she loves writing about
+                characters who discover magical worlds hidden just
+                beyond the ordinary.
+            </p>
+
+            <p>
+                Her stories invite readers to look beyond what they
+                can see and wonder what might be waiting behind the
+                next forgotten door.
+            </p>
+
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer>
+        <p class="footer-title">The Enchanted Library</p>
+
+        <p>Where every book opens a new world.</p>
+
+        <p>&copy; 2026 The Enchanted Library</p>
+    </footer>
+
+
+<script src="js/cart.js"></script>    
+</body>
+
+</html>
